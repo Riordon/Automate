@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <website name="EPD鞋包">
+        <folder name="男鞋">
+            <folder name="品牌预览">
+            	<folder name="影棚高清"/>
+            	<folder name="订货会"/>
+            </folder>
+            <folder name="市场分析">
+            	<folder name="市场报告"/>
+            	<folder name="橱窗活动">
+                	<folder name="国内橱窗"/>
+            		<folder name="展会跟踪"/>
+            		<folder name="时尚街拍"/>
+            		<folder name="流行橱窗"/>
+            	</folder>
+            </folder>
+        </folder>
+        <folder name="女鞋">
+            <folder name="品牌预览">
+            	<folder name="品牌分析"/>
+            	<folder name="品牌高清">
+            		<folder name="影棚高清"/>
+            		<folder name="订货会"/>
+            	</folder>
+            </folder>
+            <folder name="市场分析">
+            	<folder name="市场报告"/>
+            	<folder name="橱窗活动">
+                	<folder name="国内橱窗"/>
+            		<folder name="展会跟踪"/>
+            		<folder name="时尚街拍"/>
+            		<folder name="流行橱窗"/>
+            	</folder>
+            </folder>
+        </folder>
+        <folder name="休闲运动">
+            <folder name="品牌预览">
+            	<folder name="影棚高清"/>
+            	<folder name="订货会"/>
+            </folder>
+            <folder name="市场分析">
+               	<folder name="国内橱窗"/>
+           		<folder name="展会跟踪"/>
+           		<folder name="流行橱窗"/>
+            </folder>
+        </folder>
+        <folder name="箱包">
+            <folder name="品牌预览">
+            	<folder name="品牌分析"/>
+            	<folder name="品牌高清">
+            		<folder name="影棚高清"/>
+            		<folder name="订货会"/>
+            	</folder>
+            </folder>
+            <folder name="市场分析">
+            	<folder name="市场报告"/>
+            	<folder name="橱窗活动">
+                	<folder name="国内橱窗"/>
+            		<folder name="展会跟踪"/>
+            		<folder name="时尚街拍"/>
+            		<folder name="流行橱窗"/>
+            	</folder>
+            </folder>
+        </folder>
+    </website>
+</root>
