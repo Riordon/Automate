@@ -1,5 +1,7 @@
 package diexun.main;
 
+import diexun.tcp.NettyServer;
+
 /**
  * @author xiaolong
  */
@@ -14,6 +16,10 @@ public class Main {
         	
             final MonitorTimer mt = new MonitorTimer(); // 扫描任务监听器
             mt.startMonitor();
+            
+            final NettyServer tcpServer = new NettyServer(); // TCP监听器
+            tcpServer.init();
+            tcpServer.start();
         }
 	}
 

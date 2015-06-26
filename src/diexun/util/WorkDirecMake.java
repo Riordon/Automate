@@ -20,7 +20,7 @@ import diexun.config.Constants;
 
 /**
  *
- * @author 罗远康 (业务工作目录文件生成类)
+ * @author xiaolong (业务工作目录文件生成类)
  */
 public class WorkDirecMake {
 
@@ -53,6 +53,21 @@ public class WorkDirecMake {
         }
     }
 
+    /*
+     * theme缓存
+     */
+    public void makeCacheTheme(String cachePath, int year, int month, int day) {
+    	File f1 = new File(cachePath + File.separator + Constants.EPD_SHOEBAG_WEBSITE + File.separator + year + month + day + "_theme");
+    	File f2 = new File(cachePath + File.separator + Constants.EPD_CLOTHING_SEBSITE + File.separator + year + month + day + "_theme");
+    	
+    	try {
+			f1.createNewFile();
+			f2.createNewFile();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+    }
+    
     /**
      * 生成文件函数
      *
